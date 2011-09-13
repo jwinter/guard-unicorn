@@ -1,4 +1,5 @@
-require "guard-unicorn/version"
+require "guard"
+require "guard/guard"
 
 module Guard
   module Unicorn
