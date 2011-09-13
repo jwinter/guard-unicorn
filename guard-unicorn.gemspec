@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
   # Yeah, that's right, I develop on Linux. Get over it.
   s.add_development_dependency 'rb-inotify',      '~> 0.8.6'
   s.add_development_dependency 'libnotify',       '~> 0.5.7'
+  s.add_development_dependency 'rake'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
